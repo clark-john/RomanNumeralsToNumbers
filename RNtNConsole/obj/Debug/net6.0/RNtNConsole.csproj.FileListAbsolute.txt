@@ -1,0 +1,15 @@
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\bin\Debug\net6.0\RNtNConsole.exe
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\bin\Debug\net6.0\RNtNConsole.deps.json
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\bin\Debug\net6.0\RNtNConsole.runtimeconfig.json
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\bin\Debug\net6.0\RNtNConsole.dll
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\bin\Debug\net6.0\RNtNConsole.pdb
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\obj\Debug\net6.0\RNtNConsole.csproj.AssemblyReference.cache
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\obj\Debug\net6.0\RNtNConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\obj\Debug\net6.0\RNtNConsole.AssemblyInfoInputs.cache
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\obj\Debug\net6.0\RNtNConsole.AssemblyInfo.cs
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\obj\Debug\net6.0\RNtNConsole.csproj.CoreCompileInputs.cache
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\obj\Debug\net6.0\RNtNConsole.dll
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\obj\Debug\net6.0\refint\RNtNConsole.dll
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\obj\Debug\net6.0\RNtNConsole.pdb
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\obj\Debug\net6.0\RNtNConsole.genruntimeconfig.cache
+C:\Users\Clark\Files\projects\RomanNumeralsToNumbers\RNtNConsole\obj\Debug\net6.0\ref\RNtNConsole.dll
