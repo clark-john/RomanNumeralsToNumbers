@@ -5,16 +5,6 @@ root = true
 indent_style = tab
 indent_size = 2
 tab_width = 2
-
-# Xml files
-[*.xml]
-
-# C# files
-[*.cs]
-
-#### Core EditorConfig Options ####
-
-# New line preferences
 end_of_line = crlf
 insert_final_newline = true
 
