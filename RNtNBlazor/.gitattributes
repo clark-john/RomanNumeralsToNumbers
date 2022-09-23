@@ -1,0 +1,7 @@
+wwwroot/css/bootstrap/ linguist-vendored
+Pages/Error.cshtml.cs linguist-generated
+# I only changed this file a bit
+Shared/MainLayout.razor.css linguist-generated 
+# also this
+wwwroot/site.css linguist-generated 
+Pages/Error.* linguist-generated 

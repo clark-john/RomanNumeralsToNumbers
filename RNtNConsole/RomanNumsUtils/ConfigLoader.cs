@@ -1,9 +1,9 @@
-namespace RomanNumsUtils;
-
 using YamlDotNet.Core;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 using static System.IO.File;
+
+namespace RomanNumsUtils;
 
 class Config
 {

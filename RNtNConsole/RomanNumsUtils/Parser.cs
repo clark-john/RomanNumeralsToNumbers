@@ -18,27 +18,25 @@ public class Parser
 		{ 'I', 1 },
 		{ ' ', 0 }
 	};
-	private Numeral numeral;
+	private string numeral;
 	public Parser(string num)
 	{
-		numeral = new Numeral(num);
+		numeral = num;
 	}
 	private char ToNonNullCharAndUpper(char? c) => Char.ToUpper(Convert.ToChar(c ?? ' '));
-	private bool IsNextNumeralLarger(int first, int? next) => first < next && next != null ? true : false;
 	public int Parse()
 	{
+		ConfigLoader l = new ConfigLoader();
+		l.Load("./rntn.yml");
 		int result = 0;
-		for (int x = 0; x < numeral.Length; x++) 
-		{
-			int PreviousValue = RomanNumeralValues[ToNonNullCharAndUpper(numeral[x])];
-			int NextValue = RomanNumeralValues[ToNonNullCharAndUpper(numeral[x + 1])];
-			
-			if (IsNextNumeralLarger(PreviousValue, NextValue)) {
-				result += (NextValue - PreviousValue) - NextValue;
-			} else {	
-				result += PreviousValue;
-			}
-		}	
+		if (!l.IsViceVersa) {
+			int previousValue = 0;
+			foreach (char x in numeral.Reverse().ToArray()) {
+				int number = RomanNumeralValues[ToNonNullCharAndUpper(x)];
+				result += number < previousValue ? -number : number; 
+				previousValue = number;
+			}				
+		}
 		return result;
 	}
 }

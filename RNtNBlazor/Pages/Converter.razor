@@ -1,0 +1,30 @@
+@page "/rntn"
+
+@using RomanNumsUtils
+
+<PageTitle>Roman Numerals to Numbers</PageTitle>
+
+<input type="text" @oninput="@ChangeText">
+
+<div>@OutputNumber</div>
+
+@code {	
+	private dynamic OutputNumber = 0;
+
+	private void ChangeText (ChangeEventArgs e) {
+		string? number = Convert.ToString(e.Value);
+		Validator v = new(number ?? "");
+		Parser p = new(number ?? "");
+		if (v.Validate()) {
+			OutputNumber = p.Parse();
+		} else {
+			OutputNumber = Errors.InvalidRomanNumeral;
+		}
+	}  
+}
+
+<style>
+input {
+	width: 30%;
+}
+</style>
